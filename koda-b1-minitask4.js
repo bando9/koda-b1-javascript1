@@ -8,12 +8,12 @@
 // * multiplication
 // * 1+1=2, 1+2=3
 
-const mode = "multiplication";
+const mode = "fizzbuzz";
 
 switch (mode) {
   case "fizzbuzz":
     for (let i = 1; i <= 20; i++) {
-      if (i == 3 * 5) {
+      if (i % 3 == 0 && i % 5 == 0) {
         console.log("fizzbuzz");
       }
       console.log(i);
