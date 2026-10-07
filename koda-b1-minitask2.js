@@ -39,3 +39,12 @@ const num = {
 };
 
 console.log(num.first[1] + num.second[2]);
+
+// ==========================
+
+const { first, second } = num;
+const { world } = hello;
+
+console.log(first);
+console.log(second);
+console.log(world);
